@@ -18,8 +18,8 @@ public class SalesManager {
     }
 
     public int trimmedMean() {
-        int max = sales[0];
-        int min = sales[0];
+        var max = sales[0];
+        var min = sales[0];
         long sum = 0;
         for (int i = 0; i < sales.length; i++){
             sum = sum + sales[i];
